@@ -3,10 +3,25 @@ h1 a, h2 a {
     font-family: 'Lobster';
 }
 body {
-  text-align: center;
-  padding-left: 90px;
-  padding-right: 90px
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
 }
+.main {
+  text-align: center;
+  margin: 0 90px;
+  background-color: #efe0c3;
+}
+
+head{
+  text-align: center;
+}
+
+footer{
+  background-color: black;
+  color: #ffffff;
+}
+
 .page-header {
     background-color: #C25100;
     margin-top: 0;
@@ -20,7 +35,8 @@ body {
 }
 
 .content {
-    margin-left: 40px;
+    margin: 0 50px;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -46,6 +62,7 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
+
 .post {
     margin-bottom: 70px;
 }
@@ -53,5 +70,6 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
+
 
 Context | Request Context
